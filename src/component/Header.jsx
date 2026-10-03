@@ -8,7 +8,7 @@ const Header = () => {
             <h1 className='  flex text-gray-300  hover:text-white gap-3'><img src="src/assets/imgi_1_envelop.svg" alt="mail-icon" /><a>hello@shopping.com</a></h1>
             <h1 className=' flex text-gray-300  hover:text-white gap-3'><img src="src/assets/imgi_2_phone.svg" alt="phone-icon" /><a>0927 6277 28525</a></h1>
         </div>
-         <div className=' flex justify-between items-center px-30 py-8'>
+         <div className=' flex justify-between items-center px-35 py-8'>
             <img src="src/assets/imgi_3_logo.svg" alt="logo" />
             <nav>
                 <ul className='flex gap-10 font-medium text-xl'>
@@ -18,7 +18,7 @@ const Header = () => {
     after:left-0
     after:bottom-0
     after:w-full
-    after:h-[2px;]
+    after:h-0.5
     after:bg-orange-500
     after:scale-x-0
     after:origin-left

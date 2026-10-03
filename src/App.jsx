@@ -8,7 +8,7 @@ import About from './pages/About'
 
 export const App = () => {
   return (
-    <div className='flex flex-col gap-10'>
+    <div className='flex flex-col '>
       <Header/>
       <Home/>
       <Service/>

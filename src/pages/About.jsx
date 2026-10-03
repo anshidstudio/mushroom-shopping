@@ -11,7 +11,7 @@ const About = () => {
                     <p className=' text-xl text-center'>Mushrooms are edible fungus that can provide <br/>
                 several important nutrients.</p>
 
-                    <div className="w-full  h-[75px;] border border-gray-300 rounded-3xl flex  overflow-hidden">
+                    <div className="w-full  h-18.75 border border-gray-300 rounded-3xl flex  overflow-hidden">
                         <input    type="text"    placeholder="Enter your email"    className="flex-1 pl-10 font-bold "/>
                         <button    className="p-6 bg-orange-500 text-white text-xl font-bold cursor-pointer hover:bg-orange-700">
                             Subscribe
