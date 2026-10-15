@@ -3,8 +3,9 @@ import Header from './component/Header'
 import Home from './pages/Home'
 import Service from './pages/Service'
 import Details from './pages/Details'
-import Reviews from './pages/Reviews'
 import About from './pages/About'
+import Customers from './pages/Customers'
+
 
 export const App = () => {
   return (
@@ -13,7 +14,7 @@ export const App = () => {
       <Home/>
       <Service/>
       <Details/>
-      {/* <Reviews/> */}
+      <Customers/>
       <About/>
     </div>
   )
